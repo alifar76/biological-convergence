@@ -2,20 +2,15 @@
 # Currently set to perform logistic regression (binary response variable)
 # Rscript elastic_net_lasso_script.r high_vs_low_otu_table.txt high_low_mapfile.txt en_lasso_output.csv auc binomial 4
 
-
-
 # http://stackoverflow.com/questions/17032264/big-matrix-to-run-glmnet
 # Cannot use model.matrix for this dataset as we have over 40,000 OTUs to test
 # family=binomial for two-level factor. type.measure can be 'auc' on Mark Segal's suggestion
-
-
 
 #######
 require(Matrix)
 require(glmnet)
 require(doMC)
 require(methods)
-
 
 lasso_enet <- function(x,y,num,methodtype,compid,outputname,typemeasure,familydist,taxnames,one_vec,two_vec){
 	#fitted = glmnet(x, y,standardize=FALSE,alpha=num)
@@ -47,7 +42,6 @@ lasso_enet <- function(x,y,num,methodtype,compid,outputname,typemeasure,familydi
 		}
 	}
 }
-
 
 
 data_load_run <- function(otuinput,mapfile,outputname,typemeasure,familydist){
@@ -91,9 +85,6 @@ data_load_run <- function(otuinput,mapfile,outputname,typemeasure,familydist){
 }
 
 
-
-
-
 argv <- commandArgs(TRUE)
 otutable <- argv[1]
 mapfile <- argv[2]
@@ -106,22 +97,3 @@ registerDoMC(cores = as.numeric(ncor))
 start.time <- Sys.time()
 data_load_run(otutable,mapfile,outputfile,measuretype,pdf)
 print (Sys.time() - start.time)
-
-
-
-
-
-
-
-
-### This code works!
-#setwd('/Users/alifaruqi/Desktop/Projects/Development_Tools/Github_Scripts/biological_convergence')
-#registerDoMC(cores=2)
-#tshoot <- data_load_run("high_vs_low_otu_table.txt","high_low_mapfile.txt","test.csv","auc","binomial")
-
-
-
-
-
-
-#Rscript elastic_net_lasso_script.r high_vs_low_otu_table.txt high_low_mapfile.txt en_lasso_output.csv auc binomial 4
