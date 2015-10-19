@@ -1,0 +1,1 @@
+biom convert -i 219_otu_table.biom -o 219_otu_table.txt --to-tsv --header-key taxonomy --table-type="OTU table"

@@ -1,0 +1,1 @@
+scp -i AAF_Bioconvergence.pem -r * ubuntu@ec2-54-196-222-226.compute-1.amazonaws.com:/home/ubuntu/bioconverge
