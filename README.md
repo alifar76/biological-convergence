@@ -17,21 +17,16 @@ There is 1 script in the folder src. It is called ```comparer.py```.
 
 To run the script, simply type:
 
-```python comparer.py```
+```python bio_convergence.py```
 
-Please ensure that the two files are in the same folder as the script. Otherwise, the script will crash.
+For help regarding the input parameters, please type:
+
+```python bio_convergence.py -h``
 
 Output Explained
 ------
 
-The output of the script contains information about OTUs that are common between the two analysis approaches. Currently, there are 5 columns in the output file prodcued. The columns and their descriptions of the output file are as follows:
+The main output of the script is called:
 
-1) **OTU_ID**: Indicates the OTU ID.
-
-2) **Mean Difference**: Indicates the mean difference between treatment groups for the OTU. 
-
-3) **NegBin Group**: Indicates which treatment group is the OTU significant in using the three model based regression modelling.
-
-4) **EN Group**: Indicates which treatment group is the OTU significant in using logistic regression model based on elastic nets.
 
 5) **Taxonomy**: Indicates the taxonomy of the OTU.
