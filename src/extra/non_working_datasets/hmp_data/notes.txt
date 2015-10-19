@@ -1,6 +1,0 @@
-http://hmpdacc.org/HMQCP/
-
-Download Final OTU table data
-
-Create new OTU and mapping file by getting of missing samples.
-Used data_verifier.py for this purpose.
