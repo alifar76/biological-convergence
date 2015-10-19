@@ -13,15 +13,9 @@ If one, from a biological standpoint, considers statistical models as nothing mo
 Running the script
 ------
 
-There is 1 script in the folder src. It is called ```comparer.py```. 
+For help regarding the input parameters to run the pipline, which is present in src/ folder, please type the following:
 
-To run the script, simply type:
-
-```python bio_convergence.py```
-
-For help regarding the input parameters, please type:
-
-```python bio_convergence.py -h``
+```python bio_convergence.py -h```
 
 Output Explained
 ------
