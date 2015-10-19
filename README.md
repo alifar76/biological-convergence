@@ -17,6 +17,12 @@ For help regarding the input parameters to run the pipline, which is present in 
 
 ```python bio_convergence.py -h```
 
+Input
+------
+
+The pipeline requires an QIIME compatible OTU table and mapping file as its input. The publicly available dataset of the lean/obese study, as obtained via qiita, is provided with the pipeline.
+
+
 Output Explained
 ------
 
