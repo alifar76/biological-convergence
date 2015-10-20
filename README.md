@@ -13,7 +13,7 @@ If one, from a biological standpoint, considers statistical models as nothing mo
 Running the script
 ------
 
-For help regarding the input parameters to run the pipline, which is present in src/ folder, please type the following:
+For help regarding the input parameters to run the pipline, which is present in ```src/``` folder, please type the following:
 
 ```python bio_convergence.py -h```
 
