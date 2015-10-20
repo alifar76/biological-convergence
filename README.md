@@ -23,10 +23,7 @@ Input
 The pipeline requires an QIIME compatible OTU table and mapping file as its input. The publicly available dataset of the lean/obese study, as obtained via qiita, is provided with the pipeline.
 
 
-Output Explained
+Output
 ------
 
-The main output of the script is called:
-
-
-5) **Taxonomy**: Indicates the taxonomy of the OTU.
+The main output of the script is called **convergence_trt1_trt2.txt**, where **trt1** and **trt2** levels of the metadata variable used for prediction.
