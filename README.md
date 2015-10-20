@@ -26,4 +26,4 @@ The pipeline requires an QIIME compatible OTU table and mapping file as its inpu
 Output
 ------
 
-The main output of the script is called **convergence_trt1_trt2.txt**, where **trt1** and **trt2** levels of the metadata variable used for prediction.
+The main output of the script is called **convergence_trt1_trt2.txt**, where **trt1** and **trt2** are the levels of the metadata variable used for prediction.
