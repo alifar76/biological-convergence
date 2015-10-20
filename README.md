@@ -20,7 +20,7 @@ For help regarding the input parameters to run the pipline, which is present in 
 Input
 ------
 
-The pipeline requires an QIIME compatible OTU table and mapping file as its input. The publicly available dataset of the lean/obese study, as obtained via qiita, is provided with the pipeline.
+The pipeline requires a QIIME compatible OTU table and mapping file as its input. The publicly available dataset of the [lean-obese study](http://www.ncbi.nlm.nih.gov/pubmed/19043404), as obtained via [qiita](http://qiita.ucsd.edu), is provided with the pipeline.
 
 
 Output
