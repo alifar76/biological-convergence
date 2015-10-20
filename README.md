@@ -1,5 +1,5 @@
 # biological-convergence
-This is a work in progress.
+This is a work in progress. The idea is simple: develop a machine-learning pipeline based on the principle of [stacking](http://mlwave.com/kaggle-ensembling-guide/) that can work count data as generated via high-throughput platforms in biological sciences. 
 
 Background
 ------
