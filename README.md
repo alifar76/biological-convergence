@@ -10,6 +10,15 @@ Another approach is to use logistic regression modelling based on penalized regr
 
 If one, from a biological standpoint, considers statistical models as nothing more than screening tools, one might be interested in knowing whether there is any biological convergance between various models. In such a case, it will be useful to see if we find a handful of predictors as significant, regardless of the test used. This is what this pipeline attempts to do from the output produced by the two analysis scripts described earlier.
 
+Required R packages
+------
+
+- [pscl](http://cran.r-project.org/web/packages/pscl/index.html)
+- [MASS](http://cran.r-project.org/web/packages/MASS/index.html)
+- [foreach](http://cran.r-project.org/web/packages/foreach/index.html)
+- [doMC](http://cran.r-project.org/web/packages/doMC/index.html)
+- [glmnet](http://cran.r-project.org/web/packages/glmnet/index.html)
+
 Running the script
 ------
 
@@ -20,7 +29,9 @@ For help regarding the input parameters to run the pipline, which is present in 
 Input
 ------
 
-The pipeline requires a QIIME compatible OTU table and mapping file as its input. The publicly available dataset of the [lean-obese study](http://www.ncbi.nlm.nih.gov/pubmed/19043404), as obtained via [qiita](http://qiita.ucsd.edu), is provided with the pipeline.
+The pipeline accepts an OTU table file, generated via [QIIME 1.8.0 (stable public release)](http://qiime.org/), (in tab-delimited format) as input and a standard mapping/metadata file compatible with QIIME. 
+
+The publicly available dataset of the [lean-obese study](http://www.ncbi.nlm.nih.gov/pubmed/19043404), as obtained via [qiita](http://qiita.ucsd.edu), is provided with the pipeline as an example.
 
 
 Output
