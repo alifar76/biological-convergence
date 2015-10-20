@@ -8,7 +8,7 @@ Using a three-model approach (based on Poisson, Negative Binomial and Zero-infla
 
 Another approach is to use logistic regression modelling based on penalized regression (as implemented via Lasso and Elastic Nets). In these approaches, OTU counts become explanatory variables and treatment groups become response variable as implemented in [MicrobeNets](https://github.com/alifar76/MicrobeNets).
 
-If one, from a biological standpoint, considers statistical models as nothing more than screening tools, one might be interested in knowing whether there is any biological convergance between various models. In such a case, it will be useful to see if we find a handful of predictors as significant, regardless of the test used. This is what this pipeline attempts to do from the output produced by the two analysis scripts.
+If one, from a biological standpoint, considers statistical models as nothing more than screening tools, one might be interested in knowing whether there is any biological convergance between various models. In such a case, it will be useful to see if we find a handful of predictors as significant, regardless of the test used. This is what this pipeline attempts to do from the output produced by the two analysis scripts described earlier.
 
 Running the script
 ------
