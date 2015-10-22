@@ -142,7 +142,7 @@ python bio_convergence.py -otu lean_obese/219_otu_table.txt -map lean_obese/lean
 						mapping file (such as Not_Lean)', required=True)
 	parser.add_argument('-metavar', metavar='Heading of meta-variable', nargs=1, help='Header of the meta-varaible as it \
 						appears in the mapping file (of the variable to be tested)', required=True)
-	parser.add_argument('-proc', metavar='Percentage', type=int ,nargs=1, help='Number of \
+	parser.add_argument('-proc', metavar='Processors', type=int ,nargs=1, help='Number of \
 							processors to use',required=True)
 	args = parser.parse_args()
 
