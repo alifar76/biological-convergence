@@ -5,6 +5,7 @@ from datetime import datetime
 
 
 def zero_check(checkv,dictn):
+	
 	val = [Decimal(checkv)]
 	result = [x/abs(x) for x in val if x !=0]
 	if len(result) != 0:
